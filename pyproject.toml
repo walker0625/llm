@@ -5,6 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "accelerate>=1.10.1",
+    "bitsandbytes>=0.47.0",
+    "datasets>=4.0.0",
+    "huggingface-hub>=0.34.4",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.6",
     "ollama>=0.5.3",
@@ -16,5 +20,6 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "scikit-learn>=1.7.1",
     "speechrecognition>=3.14.3",
+    "transformers>=4.56.1",
     "yfinance>=0.2.65",
 ]

@@ -9,3 +9,4 @@ wheels/
 # Virtual environments
 .venv
 .env
+gguf/llama-3-Korean-Bllossom-8B-Q4_K_M.gguf
