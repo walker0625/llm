@@ -9,4 +9,9 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# data
 gguf/llama-3-Korean-Bllossom-8B-Q4_K_M.gguf
+llm/output
+llm/outputs
+llm/naver_summary_custom_data
