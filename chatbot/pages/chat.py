@@ -37,7 +37,8 @@ if input_text:
         with container:
             with st.spinner("답변 중..."):
                 answer = utils.mychat(input_text, history)
-                st.markdown(answer)
+            
+            st.markdown(answer)
 
     # 대화 저장    
     st.session_state["messages"].extend(
